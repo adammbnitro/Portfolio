@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgba(218, 165, 32);
+  --dark: rgba(28,29,33,1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 25px;
+}
+
+#navigation a {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #023020;
+  background-color: white;
+  font-size: 1.1rem;
+  background-image: linear-gradient(270deg, #023020 0%, #023020 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+}
+
+#navigation a:hover {
+  transition: 0.5s ease;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  color: white;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#navBar h1 {
+  width: 50%;
+  font-weight: 500;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #023020;
+}
+
+.hero-banner {
+  background-color: #042217;
+  background-image: url(../darkgreen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  color: white;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
