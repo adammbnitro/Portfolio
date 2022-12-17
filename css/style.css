@@ -60,7 +60,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: #023020;
+  color: #042217;
+  font-size: 2.3rem;
 }
 
 .hero-banner {
@@ -75,6 +76,83 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  text-align: right;
+}
+
+.hero-banner h2 {
+  background-color: #042217;
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 2.3rem;
+  line-height: 1.2;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.page-section h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  color: #042217;
+  padding-right: 15px;
+  border-right: 4px solid #042217; 
+  font-size: 3.7vw;
+  line-height: 1.1;
+}
+
+.page-section div {
+  flex: 0 0 77%;
+}
+
+.page-section p {
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border: 5px solid var(--dark);
+  background-color: white;
+  color: #042217;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-size: 150%;
+  background-blend-mode: soft-light;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+.flex-item:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item:hover {
+  background-color: #042217;
+  color: white;
 }
 
 h1,
