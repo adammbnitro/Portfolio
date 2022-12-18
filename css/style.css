@@ -81,10 +81,11 @@ body {
 
 .hero-banner h2 {
   background-color: #042217;
-  margin: 0;
   padding: 5px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
+  display: inline;
+  margin: 0;
 }
 
 .page-wrapper {
@@ -109,15 +110,15 @@ body {
   color: #042217;
   padding-right: 15px;
   border-right: 4px solid #042217; 
-  font-size: 3.7vw;
+  font-size: 4vw;
   line-height: 1.1;
 }
 
-.page-section div {
+.page-section > div {
   flex: 0 0 77%;
 }
 
-.page-section p {
+.page-section > p {
   margin-bottom: 20px;
 }
 
@@ -129,8 +130,8 @@ body {
 
 .flex-item {
   border: 5px solid var(--dark);
-  background-color: white;
-  color: #042217;
+  color: black;
+  background-color: rgb(80, 140, 99);
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
@@ -146,7 +147,7 @@ body {
 }
 
 .flex-item:first-child {
-  min-height: 400px;
+  min-height: 250px;
   flex-basis: 100%;
 }
 
@@ -154,6 +155,82 @@ body {
   background-color: #042217;
   color: white;
 }
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact address a {
+  padding: 70px;
+  text-decoration: none;
+  color: #042217;
+  font-style: normal;
+  display: inline;
+  max-width: 100%;
+}
+
+.contact address a:hover {
+  color:rgb(80, 140, 99);
+}
+
+.calc {
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-position: 55%;
+}
+
+.runbuddy {
+  background-image: url(../images/02-run-buddy.jpg);
+  background-size: cover;
+}
+
+.chromeextension {
+  background-image: url(../ChromeExtension.png);
+  background-size: cover;
+}
+
+.runbdy {
+  margin: 10px;
+}
+
+.calculator {
+  margin: 10px;
+}
+
+.chextension {
+  margin: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .hero-banner {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .address {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+} 
 
 h1,
 h2,
