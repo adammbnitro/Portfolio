@@ -88,6 +88,13 @@ body {
   margin: 0;
 }
 
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .page-wrapper {
   max-width: 88%;
   margin-left: auto;
@@ -178,7 +185,7 @@ body {
 
 .calc {
   background-image: url(../images/02-portfolio-2.jpg);
-  background-position: 55%;
+  background-position: 95%;
 }
 
 .runbuddy {
