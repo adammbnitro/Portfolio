@@ -137,8 +137,7 @@ body {
 
 .flex-item {
   border: 5px solid var(--dark);
-  color: black;
-  background-color: rgb(80, 140, 99);
+  color: white;
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
@@ -160,7 +159,6 @@ body {
 
 .flex-item:hover {
   background-color: #042217;
-  color: white;
 }
 
 .address {
@@ -183,9 +181,8 @@ body {
   color:rgb(80, 140, 99);
 }
 
-.calc {
-  background-image: url(../images/02-portfolio-2.jpg);
-  background-position: 95%;
+.dashboard {
+  background-image: url(../images/Screenshot\ 2023-05-20\ 120559.png);
 }
 
 .recipefinder {
@@ -193,21 +190,44 @@ body {
   background-size: cover;
 }
 
-.chromeextension {
-  background-image: url(../ChromeExtension.png);
+.furniturestore {
+  background-image: url(../images/React-App.png);
   background-size: cover;
 }
 
-.recipe {
-  margin: 10px;
+.passgenerator {
+  background-image: url(../images/Screenshot-final-result.png);
+  background-size: cover;
 }
 
-.calculator {
-  margin: 10px;
+.calendarplanner {
+  background-image: url(../images/Final-Screenshot.png);
+  background-size: cover;
 }
 
-.chextension {
+.codingquiz {
+  background-image: url(../images/Screenshot\ 2023-05-21\ 160945.png);
+  background-size: cover;
+}
+
+.teamgen {
+  background-image: url(../images/Final-SS.png);
+  background-size: cover;
+}
+
+.coding {
   margin: 10px;
+  position: relative;
+}
+
+.coding .project-title,
+.coding .project-languages {
+  display: none;
+}
+
+.flex-item:hover .coding .project-title,
+.flex-item:hover .coding .project-languages {
+  display: block;
 }
 
 @media screen and (max-width: 1500px) {
