@@ -1,5 +1,3 @@
-# module-2-assignment
-
 # Building a Portfolio From Scratch
 
 ## Description:
