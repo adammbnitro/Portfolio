@@ -8,7 +8,7 @@ I built this project to display my portfolio using advanced CSS skills such as f
 
 https://adam-portfolio-eight.vercel.app/ 
 
-![alt text](Adam-Frontend-Developer.png)
+![alt text](images/Adam-Frontend-Developer.png)
 
 ## License 
 
