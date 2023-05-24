@@ -6,7 +6,7 @@ I built this project to display my portfolio using advanced CSS skills such as f
 
 ## Deployed Link:
 
-https://adammbnitro.github.io/module-2-assignment/ 
+https://adam-portfolio-eight.vercel.app/ 
 
 ![alt text](Adam-Frontend-Developer.png)
 
